@@ -1,6 +1,8 @@
 #include "normal_dist_pdf.h"
 
+#ifndef M_PI
 #define M_PI 3.14159
+#endif
 
 double normal_dist_pdf(const std::normal_distribution<double> & dist, const double & val) {
     const double mean = dist.mean();

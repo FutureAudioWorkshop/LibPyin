@@ -3,7 +3,9 @@
 
 #include <cmath>
 
+#ifndef M_PI
 #define M_PI 3.14159
+#endif
 
 static void
 fft(unsigned int n, bool inverse,
