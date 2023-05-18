@@ -18,7 +18,7 @@ void pyinc_set_cut_off(const float cut_off) {
 
 float pyinc_get_cut_off(){
     if (_pyin_cpp) {
-        _pyin_cpp->getCutOff();
+       return _pyin_cpp->getCutOff();
     }
     else {
         return -1;
